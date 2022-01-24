@@ -13,7 +13,7 @@ body {
 
 /* Styling */
 .header {
-    height: 100px;
+    height: 95px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@ body {
     box-shadow: 0 0 10px 0 rgb(255, 194, 136);
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .logo-container {
@@ -35,14 +36,14 @@ body {
     box-shadow: 5px 5px 5px 0 rgb(255, 194, 136);
 }
 
-.top-fixed-nav-logo a{
+.header a{
     text-decoration: none;
 }
 
 .nav {
     margin-right: 45px;
     word-spacing: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .nav li {
@@ -64,7 +65,7 @@ body {
 .hero {
     background-image: url('/assets/image/Sprinkle.svg');
     background-position: 0 -150px;
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -107,5 +108,81 @@ body {
 
 /* About */
 .about {
-    height: 100vh;
+    height: 85vh;
+    display: flex;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.text-wrapper {
+    font-size: 17px;
+    padding: 25px;
+    text-align: justify;
+}
+
+.text-wrapper h1 {
+    font-size: 30px;
+}
+
+.text-wrapper h1, .text-wrapper p {
+    margin-bottom: 10px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feature {
+    height: 85vh;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.text-feature {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.text-feature h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 100px;
+}
+
+.box {
+    flex: 1;
+    flex-basis: 50%;
+    padding: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.text-box {
+    text-align: justify;
+    margin-left: 10px;
+    flex: 4;
+}
+
+.box-ins {
+    width: 100px;
+    height: 100px;
+    background-color: #FF6701;
+    line-height: 100px;
+    color: white;
+    flex: 1;
+    font-size: 30px;
 }
