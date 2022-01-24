@@ -13,11 +13,11 @@
     height: 100vh;
     padding-left: 0;
     max-width: 100%;
-    background-image: url('./assets/sativa.png');
+    background-image: url('/assets/image/sativa.png');
 }
 
 .background {
-    background-image: url("./assets/banner.jpg");
+    background-image: url("/assets/image/banner.jpg");
     background-size: cover;
     background-position: 0, -10px;
     width: 100%;
