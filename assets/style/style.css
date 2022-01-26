@@ -36,7 +36,7 @@ body {
     box-shadow: 5px 5px 5px 0 rgb(255, 194, 136);
 }
 
-.header a{
+a{
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .hero {
-    background-image: url('/assets/image/Sprinkle.svg');
+    background-image: url('../image/Sprinkle.svg');
     background-position: 0 -150px;
     height: 90vh;
     width: 100%;
@@ -123,7 +123,7 @@ body {
 }
 
 .text-wrapper h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .text-wrapper h2, .text-wrapper p {
@@ -160,8 +160,6 @@ body {
 }
 
 .box-container {
-    display: flex;
-    flex-wrap: wrap;
     margin: 25px 10%;
 }
 
@@ -186,4 +184,200 @@ body {
     color: white;
     flex: 1;
     font-size: 30px;
+}
+
+.footer {
+    margin-top: 125px;
+    background-color: #FFC288;
+    background-repeat: no-repeat;
+}
+
+.bio {
+    width: fit-content;
+    border: 1px solid #FF6701;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px 0 #FF6701;
+    background-color: #FCECDD;
+}
+
+.bio .img img {
+    border: 1px solid #FF6701;
+    border-radius: 100%;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.bio-text {
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.wrap {
+    margin: 10px 0;
+}
+
+.social {
+    margin-left: 25px;
+}
+
+.gether-footer {
+    width: 35%;
+    padding: 20px;
+}
+
+.gether-footer p {
+    margin-top: 15px;
+}
+
+/* Destkop */
+@media (min-width: 769px) {
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-feature p{
+        margin: 0 25px;
+        width: 55%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-subtitle {
+        width: 40%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    /* Hero */
+    .hero-title  {
+        font-size: 30px;
+    }
+
+    .hero-subtitle {
+        font-size: 11px;
+        margin: 0 25px;
+    }
+
+    .btn {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    /* Main Section */
+    .text-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .text-wrapper {
+        font-size: 11px;
+    }
+
+    /* Feature */
+    .feature {
+        margin-top: 35px;
+    }
+    .text-feature {
+        padding: 25px;
+    }
+    .text-feature h2 {
+        font-size: 25px;
+    }
+
+    .text-feature {
+        font-size: 12px;
+    }
+
+    .box-container {
+        margin-top: 0;
+    }
+
+    .box {
+        margin-top: 25px;
+    }
+
+    .box-ins {
+        font-size: 20px;
+    }
+
+    .text-box {
+        margin-left: 15px;
+    }
+
+    .text-box h2{
+        font-size: 17px;
+    }
+
+    .text-box p {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gether-footer {
+        width: 100%;
+    }
+
+    .gether-footer h3 {
+        font-size: 17px;
+    }
+
+    .gether-footer p {
+        font-size: 14px;
+    }
+
+    .gether-footer {
+        order: 2;
+    }
+
+    .bio {
+        order: 1;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .bio .img {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .bio-text {
+        margin-left: 0;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    .gether-footer {
+        margin: 25px 0;
+        text-align: center;
+        font-size: 20px;
+    }
 }
