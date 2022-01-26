@@ -102,8 +102,8 @@ body {
 }
 
 .btn:hover {
-    /* box-shadow: 5px 5px 5px 0 rgb(241, 135, 65); */
-    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 rgb(241, 135, 65);
+    /* transform: scale(1.1); */
 }
 
 /* About */
@@ -122,11 +122,11 @@ body {
     text-align: justify;
 }
 
-.text-wrapper h1 {
-    font-size: 30px;
+.text-wrapper h2 {
+    font-size: 40px;
 }
 
-.text-wrapper h1, .text-wrapper p {
+.text-wrapper h2, .text-wrapper p {
     margin-bottom: 10px;
 }
 
@@ -142,25 +142,27 @@ body {
 }
 
 .feature {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1474%26quot%3b)' fill='none'%3e%3cpath d='M153.23 179.46 L142.9 118.71L105.39890823596596 191.75109176403404z' stroke='rgba(255%2c 194%2c 136%2c 1)' stroke-width='1.48' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3crect width='312' height='312' clip-path='url(%26quot%3b%23SvgjsClipPath1475%26quot%3b)' x='-84.79' y='169.99' fill='url(%23SvgjsPattern1476)' transform='rotate(356.51%2c 71.21%2c 325.99)'%3e%3c/rect%3e%3cpath d='M444.35 75.97a5.6 5.6 0 1 0-3.73 10.56 5.6 5.6 0 1 0 3.73-10.56zM439.02 91.05a5.6 5.6 0 1 0-3.74 10.56 5.6 5.6 0 1 0 3.74-10.56zM433.68 106.14a5.6 5.6 0 1 0-3.74 10.56 5.6 5.6 0 1 0 3.74-10.56zM428.34 121.22a5.6 5.6 0 1 0-3.73 10.56 5.6 5.6 0 1 0 3.73-10.56z' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/path%3e%3crect width='285.76' height='285.76' clip-path='url(%26quot%3b%23SvgjsClipPath1477%26quot%3b)' x='493.4' y='-108.04' fill='url(%23SvgjsPattern1478)' transform='rotate(282.43%2c 636.28%2c 34.84)'%3e%3c/rect%3e%3ccircle r='46.666666666666664' cx='1317.3' cy='101.38' stroke='rgba(255%2c 103%2c 1%2c 1)' stroke-width='1' stroke-dasharray='3%2c 3'%3e%3c/circle%3e%3crect width='192' height='192' clip-path='url(%26quot%3b%23SvgjsClipPath1479%26quot%3b)' x='1046.87' y='217.21' fill='url(%23SvgjsPattern1480)' transform='rotate(297.96%2c 1142.87%2c 313.21)'%3e%3c/rect%3e%3cpath d='M309.61 532.52L307.82 519.84 319.79 515.3 318 502.62 329.98 498.09 328.19 485.41 340.16 480.88M316.5 536.59L314.7 523.91 326.68 519.38 324.89 506.7 336.86 502.16 335.07 489.48 347.05 484.95' stroke='rgba(252%2c 236%2c 221%2c 1)' stroke-width='2.03' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3ccircle r='46.666666666666664' cx='790.23' cy='95.19' stroke='rgba(254%2c 168%2c 47%2c 1)' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/circle%3e%3crect width='358.68' height='358.68' clip-path='url(%26quot%3b%23SvgjsClipPath1481%26quot%3b)' x='-54.18' y='198.57' fill='url(%23SvgjsPattern1482)' transform='rotate(104.26%2c 125.16%2c 377.91)'%3e%3c/rect%3e%3crect width='72' height='72' clip-path='url(%26quot%3b%23SvgjsClipPath1483%26quot%3b)' x='867.72' y='365.52' fill='url(%23SvgjsPattern1484)' transform='rotate(179.5%2c 903.72%2c 401.52)'%3e%3c/rect%3e%3crect width='210.56' height='210.56' clip-path='url(%26quot%3b%23SvgjsClipPath1485%26quot%3b)' x='1176.61' y='240.94' fill='url(%23SvgjsPattern1486)' transform='rotate(195.49%2c 1281.89%2c 346.22)'%3e%3c/rect%3e%3crect width='95.76' height='95.76' clip-path='url(%26quot%3b%23SvgjsClipPath1487%26quot%3b)' x='1247.03' y='469.66' fill='url(%23SvgjsPattern1488)' transform='rotate(318.15%2c 1294.91%2c 517.54)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1474'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1476'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(252%2c 236%2c 221%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1475'%3e%3ccircle r='78' cx='71.21' cy='325.99'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.52' height='7.52' patternUnits='userSpaceOnUse' id='SvgjsPattern1478'%3e%3cpath d='M0 7.52L3.76 0L7.52 7.52' stroke='rgba(254%2c 168%2c 47%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1477'%3e%3ccircle r='71.44' cx='636.28' cy='34.84'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1480'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(254%2c 168%2c 47%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1479'%3e%3ccircle r='48' cx='1142.87' cy='313.21'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='8.54' height='8.54' patternUnits='userSpaceOnUse' id='SvgjsPattern1482'%3e%3cpath d='M4.27 1L4.27 7.539999999999999M1 4.27L7.539999999999999 4.27' stroke='rgba(255%2c 103%2c 1%2c 1)' fill='none' stroke-width='1.42'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1481'%3e%3ccircle r='89.67' cx='125.16' cy='377.91'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='72' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1484'%3e%3crect width='72' height='3' x='0' y='0' fill='rgba(254%2c 168%2c 47%2c 1)'%3e%3c/rect%3e%3crect width='72' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1483'%3e%3ccircle r='18' cx='903.72' cy='401.52'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.16' height='13.16' patternUnits='userSpaceOnUse' id='SvgjsPattern1486'%3e%3cpath d='M0 13.16L6.58 0L13.16 13.16' stroke='rgba(255%2c 194%2c 136%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1485'%3e%3ccircle r='52.64' cx='1281.89' cy='346.22'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='95.76' height='6.84' patternUnits='userSpaceOnUse' id='SvgjsPattern1488'%3e%3crect width='95.76' height='3.42' x='0' y='0' fill='rgba(252%2c 236%2c 221%2c 1)'%3e%3c/rect%3e%3crect width='95.76' height='3.42' x='0' y='3.42' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1487'%3e%3ccircle r='23.94' cx='1294.91' cy='517.54'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
     height: 85vh;
     text-align: center;
-    margin-top: 45px;
 }
 
 .text-feature {
     width: fit-content;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
-.text-feature h1 {
+.text-feature h2 {
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .box-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 25px 100px;
+    margin: 25px 10%;
 }
 
 .box {
@@ -168,7 +170,8 @@ body {
     flex-basis: 50%;
     padding: 10px;
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    margin: 50px 0;
 }
 
 .text-box {
@@ -178,8 +181,6 @@ body {
 }
 
 .box-ins {
-    width: 100px;
-    height: 100px;
     background-color: #FF6701;
     line-height: 100px;
     color: white;
