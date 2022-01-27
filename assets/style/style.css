@@ -102,7 +102,7 @@ a{
 }
 
 .btn:hover {
-    box-shadow: 0 0 10px 0 rgb(241, 135, 65);
+    box-shadow: 2px 2px 5px 0 #FF6701;
     /* transform: scale(1.1); */
 }
 
@@ -115,6 +115,7 @@ a{
 
 .about-content {
     flex: 1;
+    overflow: auto;
 }
 
 .text-wrapper {
@@ -145,8 +146,9 @@ a{
 .feature {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1141%26quot%3b)' fill='none'%3e%3ccircle r='40.95' cx='1245.56' cy='480.43' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='40.575' cx='1314.04' cy='281.73' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='35.375' cx='220.7' cy='365.82' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='40.73' cx='656.95' cy='107.92' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='42.005' cx='608.04' cy='491.79' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='16.05' cx='662.05' cy='29.76' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='38.62' cx='1006.51' cy='76.85' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3ccircle r='30.525' cx='162.28' cy='510.68' fill='rgba(255%2c 194%2c 136%2c 1)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1141'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 100vh;
     text-align: center;
+    overflow: auto;
 }
 
 .text-feature {
@@ -185,12 +187,13 @@ a{
     color: white;
     flex: 1;
     font-size: 30px;
+    border-radius: 10px;
 }
 
 .footer {
-    margin-top: 125px;
     background-color: #FFC288;
     background-repeat: no-repeat;
+    overflow: auto;
 }
 
 .bio {
@@ -294,6 +297,7 @@ a{
     /* Feature */
     .feature {
         margin-top: 35px;
+        height: 100vh;
     }
     .text-feature {
         padding: 25px;
@@ -380,5 +384,22 @@ a{
         margin: 25px 0;
         text-align: center;
         font-size: 20px;
+    }
+}
+
+/* Larger Height */
+@media (min-height: 900px) {
+    .feature {
+        height: 100vh;
+    }
+
+    .hero  {
+        height: 60vh;
+    }
+}
+
+@media (min-height: 1300px) {
+    .footer {
+        margin-top: -600px
     }
 }
