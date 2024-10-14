@@ -27,6 +27,6 @@ To explore the project, follow these steps:
 Contributions and feedback are welcome! Feel free to submit issues or pull requests to improve this project.
 
 ## Acknowledgements
-Thanks to Dicoding for providing an excellent learning platform and resources for web development.
-Special thanks to the open-source community for their contributions that help learners like me.
+- Thanks to Dicoding for providing an excellent learning platform and resources for web development.
+- Special thanks to the open-source community for their contributions that help learners like me.
 
